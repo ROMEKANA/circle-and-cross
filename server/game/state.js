@@ -30,7 +30,7 @@ export function createPlayer(id) {
 }
 
 // ゲーム状態の初期状態の雛形を定義する関数
-export function createEmptyState(playerCount = 2) {
+export function createEmptyGameState(playerCount = 2) {
 	return {
 		players: [],
 		currentTurn: 0,
